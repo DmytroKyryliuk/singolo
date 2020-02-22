@@ -1,0 +1,200 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	color: #767e9e;
+	width: 1020px;
+	margin: auto;
+	font-family: Lato;
+}
+
+.black {
+	font-family: Lato Black;
+}
+
+.medium {
+	font-family: Lato Medium;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #2d303a;
+	height: 95px;
+	border-bottom: 6px solid #323746;
+}
+
+nav a {
+	float: right;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.border {
+	float: right;
+	padding: 6px 13px;
+	height: 15px;
+}
+
+nav a:hover {
+	color: #f06c64;
+}
+
+.active {
+	color: #f06c64;
+}
+
+nav h1 {
+	float:left;
+	color: #ffffff;
+	padding-top: 29px;
+	padding-left: 40px;
+	font-size: 25px;
+}
+
+span {
+	color: #f06c64;
+}
+
+.link {
+	margin-right: 40px;
+	padding-top: 42px;
+}
+
+.flex-container {
+	display: flex;
+	background-color: #f06c64;
+	height: 600px;
+	border-bottom: 6px solid #ea676b;
+}
+
+.arrow1 {
+	position:absolute;
+	background: url(./chev1.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 45px;
+	margin: 275px 0px 0px 32px;
+	z-index: 1;
+}
+
+.arrow1:hover {
+	background: url(./chev2.png);
+}
+
+.arrow2 {
+	position:absolute;
+	background: url(./chev3.png);
+	width: 35px;
+	height: 45px;
+	margin: 275px 0px 0px 954px;
+}
+
+.arrow2:hover {
+	background: url(./chev4.png);
+}
+
+.vertical {
+	position: absolute;
+	margin: 20px;
+	padding: 33px 0 0 92px;
+}
+
+.vertical1 {
+	position: absolute;
+	margin: 20px;
+	padding: 33px 0 0 92px;
+}
+
+.vertical2 {
+	position: absolute;
+	margin: 20px;
+	padding: 98px 0 0 106px;
+}
+
+.horizontal {
+	position: absolute;
+	margin: 20px;
+	padding: 154px 0 0 405px;
+}
+
+.horizontal1 {
+	position: absolute;
+	margin: 20px;
+	padding: 154px 0 0 405px;
+}
+
+.horizontal2 {
+	position: absolute;
+	margin: 20px;
+	padding: 168px 0 0 465px;
+}
+
+.services {
+	float: left;
+	padding: 25px 30px;
+	background-color: #f2f2f2;
+	border-bottom: 6px solid #ffffff;	
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 19px;
+	padding-bottom: 17px;
+}
+
+h3 {
+	padding: 10px 0px 8px 30px;
+}
+
+p {
+	line-height: 200%;
+	font-size: 11px;
+}
+
+.desk {
+	font-size: 17px;
+	line-height: 180%;
+}
+
+.column {
+	float: left;
+	text-align: justify;
+}
+
+.main {
+	padding: 16px 0px 26px 10px;
+}
+
+.column.left {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.column.center {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.column.right {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.icon{
+	float: left;
+	padding: 15px 20px 15px 1px;
+}

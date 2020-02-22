@@ -80,7 +80,7 @@ span {
 
 .arrow1 {
 	position:absolute;
-	background: url(./chev1.png);
+	background: url(./assets/chev1.png);
 	background-repeat: no-repeat;
 	width: 35px;
 	height: 45px;
@@ -89,19 +89,19 @@ span {
 }
 
 .arrow1:hover {
-	background: url(./chev2.png);
+	background: url(./assets/chev2.png);
 }
 
 .arrow2 {
 	position:absolute;
-	background: url(./chev3.png);
+	background: url(./assets/chev3.png);
 	width: 35px;
 	height: 45px;
 	margin: 275px 0px 0px 954px;
 }
 
 .arrow2:hover {
-	background: url(./chev4.png);
+	background: url(./assets/chev4.png);
 }
 
 .vertical {

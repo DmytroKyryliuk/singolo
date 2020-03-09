@@ -1,0 +1,483 @@
+/*general*/
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	color: #767e9e;
+	width: 1020px;
+	margin: auto;
+	font-family: Lato;
+}
+
+.ablack {
+	font-family: Lato Black;
+}
+
+.amedium {
+	font-family: Lato Medium;
+}
+
+/*navigation menu*/
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #2d303a;
+	height: 95px;
+	border-bottom: 6px solid #323746;
+}
+
+/*decoration*/
+
+nav a {
+	float: right;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+nav a:hover {
+	color: #f06c64;
+}
+
+.active {
+	color: #f06c64;
+}
+
+/*break between links*/
+
+.border {
+	float: right;
+	padding: 6px 13px;
+	height: 15px;
+}
+
+.link {
+	margin-right: 40px;
+	padding-top: 42px;
+}
+
+/*logo*/
+
+nav h1 {
+	float:left;
+	color: #ffffff;
+	padding-top: 29px;
+	padding-left: 40px;
+	font-size: 25px;
+}
+
+span {
+	color: #f06c64;
+}
+
+/*slider*/
+
+.flex-container {
+	display: flex;
+	background-color: #f06c64;
+	height: 600px;
+	border-bottom: 6px solid #ea676b;
+}
+
+/*interactive arrows*/
+
+.arrow1 {
+	position:absolute;
+	background: url(./assets/chev1.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 45px;
+	margin: 275px 0px 0px 32px;
+	z-index: 1;
+}
+
+.arrow1:hover {
+	background: url(./assets/chev2.png);
+}
+
+.arrow2 {
+	position:absolute;
+	background: url(./assets/chev3.png);
+	width: 35px;
+	height: 45px;
+	margin: 275px 0px 0px 954px;
+}
+
+.arrow2:hover {
+	background: url(./assets/chev4.png);
+}
+
+/*phone pics*/
+
+.vertical {
+	position: absolute;
+	margin: 20px;
+	padding: 33px 0 0 92px;
+}
+
+.vertical1 {
+	position: absolute;
+	margin: 20px;
+	padding: 33px 0 0 92px;
+}
+
+.vertical2 {
+	position: absolute;
+	margin: 20px;
+	padding: 98px 0 0 106px;
+}
+
+.horizontal {
+	position: absolute;
+	margin: 20px;
+	padding: 154px 0 0 405px;
+}
+
+.horizontal1 {
+	position: absolute;
+	margin: 20px;
+	padding: 154px 0 0 405px;
+}
+
+.horizontal2 {
+	position: absolute;
+	margin: 20px;
+	padding: 168px 0 0 465px;
+}
+
+/*text blocks*/
+
+.services {
+	float: left;
+	padding: 25px 30px;
+	background-color: #f2f2f2;
+	border-bottom: 6px solid #ffffff;
+	height: 500px;
+}
+
+.a {
+	height: 500px;
+}
+
+#h2a {
+	font-size: 30px;
+	padding-top: 19px;
+	padding-bottom: 17px;
+}
+
+#h3a {
+	padding: 10px 0px 8px 30px;
+}
+
+#pia {
+	line-height: 200%;
+	font-size: 11px;
+}
+
+.adesk {
+	font-size: 17px;
+	line-height: 180%;
+}
+
+.acolumn {
+	float: left;
+	text-align: justify;
+}
+
+.amain {
+	padding: 16px 0px 26px 10px;
+}
+
+.acolumn.aleft {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.acolumn.acenter {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.acolumn.aright {
+	padding: 5px 10px 12px 10px;
+	width: 33.33%;
+	word-wrap: break-word;
+}
+
+.aicon{
+	float: left;
+	padding: 15px 20px 15px 1px;
+}
+/*singolo2*/
+/*general*/
+
+#h2b {
+	font-size: 30px;
+	padding-top: 35px;
+	padding-left: 10px;
+	padding-bottom: 19px;
+}
+
+#pdb {
+	font-size: 17px;
+	line-height: 180%;
+	padding-left: 10px;
+}
+
+/*decoration*/
+
+.bblack {
+	font-family: Lato Black;
+}
+
+.bmedium {
+	font-family: Lato Medium;
+}
+
+a img:hover {
+	opacity: 0.5;
+}
+
+/*buttons*/
+
+button {
+	background-color: #2d303a;
+	color: #767e9e;
+	padding: 0 7px;
+	border-radius: 5px;
+	border: 1px solid #767e9e;
+	margin: 10px -4px 8px 10px;
+	padding: 4px 8px;
+	font-size: 11px;
+}
+
+button.active {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+button:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+/*gallery*/
+
+.gallerycontainer {
+	padding: 25px 30px;
+	background-color: #2d303a;
+	height: 870px;
+	border-bottom: 6px solid #323746;
+}
+
+.gallery {
+	float: left;
+}
+
+div.gallery {
+	height: 187px;
+	width: 220px;
+	overflow: hidden;
+	background-color: #464b5e;
+	margin: 10px;
+}
+
+/*about block*/
+
+.bcolumn h3 {
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+
+.aboutblock {
+	background-color: #f2f2f2;
+	height: 734px;
+	border-bottom: 6px solid #ffffff;
+}
+
+.bcolumn {
+	float: left;
+	text-align: justify;
+}
+
+.bcolumn.bmain {
+	width: 100%;
+	padding: 23px 40px 20px 30px;
+}
+
+.bcolumn.bleft {
+	width: 300px;
+	margin: 25px 0 0 40px;
+}
+
+.bcolumn.bcenter {
+	width: 300px;
+	margin: 25px 21px 0 19px;
+}
+
+.bcolumn.bright {
+	width: 300px;
+	margin: 25px 0 0 0;
+}
+
+.binfo {
+	line-height: 200%;
+	font-size: 11px;
+	padding-bottom: 22px;
+}
+
+.icon {
+	margin: 0;
+	padding-right: 4px;
+}
+/*singolo3*/
+/*general*/
+
+#h2c {
+	font-size: 30px;
+	padding-top: 59px;
+	padding-bottom: 18px;
+	color: #f0d8d9;
+}
+
+
+/*decoration*/
+
+.cblack {
+	font-family: Lato Black;
+	color: #f0d8d9;
+}
+
+.cmedium {
+	font-family: Lato Medium;
+	color: #f0d8d9;
+}
+
+/*qoute block*/
+
+.quote {
+	background-color: #f06c64;
+	height: 653px;
+	border-bottom: 6px solid #ea676b;
+	padding: 0 40px;
+}
+
+.forms {
+	padding-top: 43px;
+}
+
+.holder {
+	font-size: 11px;
+	padding-left: 15px;
+}
+
+input {
+	margin-bottom: 16px;
+	width: 619px;
+	height: 38px;
+	background-color: #d6564f;
+	border: none;
+	border-radius: 5px;
+	color: #f0d8d9;
+}
+
+textarea {
+	margin-bottom: 12px;
+	height: 202px;
+	width: 619px;
+	background-color: #d6564f;
+	border: none;
+	resize: none;
+	border-radius: 5px;
+	font-family: Lato;
+	color: #f0d8d9;
+}
+
+::placeholder {
+  color: #f08688;
+}
+
+.ccolumn {
+	float: left;
+}
+
+.ccolumn.cleft {
+	width: 65%;
+}
+
+.ccolumn.cright {
+	width: 35%;
+	padding-left: 28px;
+	text-align: justify;
+}
+
+.ccolumn h3 {
+	margin-top: -2px;
+	padding-bottom: 9px;
+}
+
+.cinfo {
+	line-height: 200%;
+	font-size: 11px;
+	padding-bottom: 22px;
+	color: #f0d8d9;
+}
+
+.contact {
+	line-height: 160%;
+	font-size: 11px;
+	color: #f0d8d9;
+}
+
+.cdesk {
+	font-size: 17px;
+	line-height: 180%;
+	text-align: justify;
+	color: #f0d8d9;
+}
+
+a{
+	text-decoration: none;
+	color: #f0d8d9; 
+}
+
+/*footer*/
+
+footer {
+	background-color: #2d303a;
+	height: 76px;
+	color: #666d89;
+}
+
+.contacticons {
+	height: 100%;
+	float: right;
+	padding: 22px 40px 0 0;
+}
+
+.contacticons img {
+	padding-left: 4px;
+}
+
+.contacticons a:hover {
+	opacity: 0.5;
+}
+
+.copyright {
+	float: left;
+	font-size: 11px;
+	padding: 31px 0 0 42px;
+}
